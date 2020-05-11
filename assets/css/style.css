@@ -1061,6 +1061,12 @@ a:hover {
   line-height: 1.6;
 }
 
+.img_member {
+  width: 508px;
+  height: 508px;
+  object-fit: cover;
+}
+
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -1071,17 +1077,35 @@ a:hover {
   .s-title{
     padding: 0.4rem 0;
   }
+
+  .img_member {
+    width: 208px;
+    height: 208px;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 992px) {
   .testimonial-box .description {
     padding: 0 8rem;
   }
+
+  .img_member {
+    width: 287.98px;
+    height: 287.98px;
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
+  }
+
+  .img_member {
+    width: 348px;
+    height: 348px;
+    object-fit: cover;
   }
 }
 
